@@ -1,0 +1,21 @@
+/*///////////////////////////////////////////////////////////////////////////
+Full name: Ana Carolline Campos Tirolli
+Student ID#:122476229
+Email: acampos-tirolli@myseneca.ca
+Date: 2023-06-17
+
+///////////////////////////////////////////////////////////////////////////*/
+
+This workshop made me have a better insight of how operators work and how to
+call them properly and get the desired result. I was struggling a little bit
+at the beginning because I always need to return a value and when I use this*
+I need to make sure if I’m sending the value in the class or if it’s the value
+I received in the function, sometimes it can be confusing and not really apparent,
+I had to use breakpoints multiple times to make I was verifying or getting the right
+value. In the first workshop we must set some values to nullptr which can be very
+important to not get weird results and end up taking more time trying to figure issues
+in the code. Overall, this workshop was amazing because it makes you think in a great
+quantity of ways of using the operators, you struggle at first for sure and it may be
+more challenging as more complex it turns into but there more ways we learn, the better.
+I must be careful because managing the values was required more attention than usual.
+Also casting can be done in multiple ways even more when it involves class and operators.
