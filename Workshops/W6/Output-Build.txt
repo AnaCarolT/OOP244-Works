@@ -1,0 +1,6 @@
+﻿Build started...
+1>------ Build started: Project: lab, Configuration: Debug x64 ------
+1>TextFile.cpp
+1>lab.vcxproj -> C:\Users\anati\OneDrive - Seneca\Desktop\Carol\Seneca\OOP244\Workshops\W6\x64\Debug\lab.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 11:08 PM and took 00.929 seconds ==========

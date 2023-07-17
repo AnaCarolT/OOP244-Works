@@ -1,0 +1,22 @@
+/*///////////////////////////////////////////////////////////////////////////
+Full name: Ana Carolline Campos Tirolli
+Student ID#:122476229
+Email: acampos-tirolli@myseneca.ca
+Date: 2023-06-03
+///////////////////////////////////////////////////////////////////////////*/
+
+This workshop made me learn how to properly handle the private properties in a class
+and making the modules step by step made me realized there is multiple ways to pass data
+without leaving it public. I also learned a new way to display by filtering it the way
+I desire the information to be shown. Besides printing it, I can decide if I want it
+fixed, in the left or in the right, I can fill spaces with whatever I need or want, 
+I also can decide the width so independent of the data receive, the filter will adjust 
+it accordingly for ints, char, doubles, floats. This is very convenient and save me a lot
+of time. Due to the quantity of items we are dealing with it’s very important to allocate
+and deallocate space or the code can work in unexpected ways. It was quite challenging at
+first because I was learning how to make the class give me the information I desired to be
+able to format it in the correct display because I would need to use the member functions
+in the class that were public to be able to pass the data that was private, so I had to 
+create specific member functions just to pass data so I could use it in another cpp file.
+I learned a lot doing part 2 because I could really why the member functions were created
+this way in part 1.
