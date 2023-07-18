@@ -1,0 +1,37 @@
+/*///////////////////////////////////////////////////////////////////////////
+Full name: Ana Carolline Campos Tirolli
+Student ID#:122476229
+Email: acampos-tirolli@myseneca.ca
+Date: 2023-07-10
+
+///////////////////////////////////////////////////////////////////////////*/
+
+This workshop taught me how I can use the input and output operators to read 
+and write data, since I got used to the method used in IPC which doesn’t include
+the <fstream> library, I believe I could have explored more my options than getting
+stuck to what I think It’s safe and what I’m used to, for example I’ve never used a
+variable with the type string so that got me afraid to use it, but in between
+char and string, the better one is the string because instead of guessing how 
+long in going to be the input/data, the variable type string already adapts to it, 
+since I used a char I had to assume how much it would receive, I decided to assume
+that the max would 256 mostly because that’s how I learned to do it with chars, so
+standard. Something that also gave me a lot of trouble was to not know how to properly
+use the unsigned type ones, most of the time my text was not printing but what I
+didn’t realize is that the problem was not my ostream, it was my cstring.cpp
+that couldn’t read the unsigned, I kept insisting until I decided to use the <cstring>
+library and most of my code was working accordingly, them I could visualize better
+what was happening. Although the const char* Textfile::operator[](unsigned) const
+looks scary at first, It’s a way to verify the whole object without having the fear
+about changing anything by accident. It’s quite simple actually, I was just overthinking it.
+Having the copy assignment and copy constructor with the delete keyword was quite
+challenging since it would block direct copy of the Line class so I kept removing
+and adding it to see the issues. I may have mistakenly forgotten to put them back too.
+Those functions being: Line(const Line&) = delete; //copy constructor blocked;
+Line& operator=(const Line&) = delete; //copy assignment blocked. Sometimes you
+get so many errors that you start deleting things to verify what possibly could
+be causing the error. Getting those blocked gave me so many errors that was making
+me rethinking how I’m going to handle this situation. The solution was simple,
+I just had to use a pointer to most of them. That’s how we end up learning tho,
+trial and error. Ifstream and fstream with the operators will turn my life way
+easier when it comes to reading and writing files after I get the hang of it.
+I usually struggle when it involve files so I always take my sweet time.
