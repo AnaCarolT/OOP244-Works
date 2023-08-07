@@ -1,0 +1,10 @@
+/*///////////////////////////////////////////////////////////////////////////
+Full name: Ana Caroline Campos Tirolli
+Student ID#:122476229
+Email: acampos-tirolli@myseneca.ca
+Date: 2023-07-20
+///////////////////////////////////////////////////////////////////////////*/
+
+In this workshop it was asked to create a MotorVehicle that has a plate, it is in a destination and was build in a certain year those are listed as private members of the class, the private members were a custom constructor, a function to move the vehicle and a function to read and another one to write, it was also used operators outside of the class to help with the ostream and the istream, all this to do the base/parent class which will be used as a base for our child/derivate class, truck was created and through inheritance is possible to have the same functions of the base and also use the variables from the parent, we can also implement the content of our functions that have the same name as the parent function. It’s a little tricky to work with but once you get the hang of it, it makes working with similar objects(car, truck, etc) very easy, if use animals as example is more easy to visualize one parent class is the animal, the child can be domestic or wild, then domestic can be dogs and cat and so go on, they will have similar structures with just a few different implementations what turn this method very useful.
+
+PS: A friend helped me fix my cstring.cpp in workshop 6 Part 1, the code is mine but he altered to help fix the issues that were specific to the workshop, I put the file in his name for it to be easier to visualize and so the professor can be aware that I was helped in that part of the workshop, the code I used is in my workshop 1 part 2 with some slight modifications because my code couldn’t handle specifics tasks in workshop 6 part 1. I unsdertood the way to do citations completely wrong but i'm informing in this reflect what was done and what happened.

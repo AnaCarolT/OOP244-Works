@@ -56,11 +56,11 @@ namespace sdds {
 	std::istream& MotorVehicle::read(std::istream& is) //read data
 	{
 		//assuming everything is right
-		cout << "Built Year: ";
+		cout << "Built year: ";
 		is >> m_fabricationYear; //get build year
-		cout << "License Plate: ";
+		cout << "License plate: ";
 		is >> m_plate; // get license plate
-		cout << "Current Location: ";
+		cout << "Current location: ";
 		is >> m_location; //get current location
 		return is;
 	}

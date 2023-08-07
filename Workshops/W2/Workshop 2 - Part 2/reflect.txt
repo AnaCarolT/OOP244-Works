@@ -1,0 +1,33 @@
+/*///////////////////////////////////////////////////////////////////////////
+Full name: Ana Carolline Campos Tirolli
+Student ID#:122476229
+Email: acampos-tirolli@myseneca.ca
+Date: 2023-05-27
+///////////////////////////////////////////////////////////////////////////*/
+Doing this workshop gave me a better understanding of how to adapt modules to 
+different codes but with similar purposes, in part 1 we worked with a file 
+about employees and we had to sort it by salary, the step by step helped me 
+realize the areas I had to work on, it took some time even with some functions 
+provided but due to that when I started part 2 I already had an idea of what I 
+needed to do so I was able to work super fast, separating everything into modules 
+makes things more readable in my perspective. I always struggle when it involves 
+reading documents or when you need to create multiple modules at once and them
+ be able to test the code. Reading the file is the main focus because if you can’t
+ read you can’t make the other functions work, I was introduced to new errors, an 
+example would be overloaded, which required me to find how to fix it, took some time
+ since I’ve never heard some of these errors, overall, I was able to work around it. 
+I understood the importance of allocating and deallocating data to prevent memory 
+leaks, I was able to get the data, sort, display and then since there is no more 
+use for that data, it was deallocated in the main function.
+Now discussing about the questions:
+In parameter can also be known by pass-by-value parameter, its is often used to 
+make sure a value will pass through a function, being able to be used by that 
+function but the value of the parameter can’t be modified, meaning it can only 
+be “read” by the function. Now, out parameters that can also be called 
+pass-by-reference parameter will pass through the function, but it is possible
+to change the value of the parameter provided and it will reflect in the original 
+argument, so they can be “read” and “written” in this situation.
+Yes, the openfile function since it is set as opefile(const char filename[]) . 
+The purpose of the this function is to open a file and search for the parameters 
+specified so it will pass through(read) and not modify anything, it will go until 
+it can’t find anything.

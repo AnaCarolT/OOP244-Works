@@ -1,0 +1,27 @@
+/*///////////////////////////////////////////////////////////////////////////
+Full name: Ana Carolline Campos Tirolli
+Student ID#:122476229
+Email: acampos-tirolli@myseneca.ca
+Date: 2023-05-23
+///////////////////////////////////////////////////////////////////////////*/
+
+During the confection of this workshop, I managed to learn more about string 
+manipulation and how to custom my own functions, making prototypes and the 
+function itself. It’s a great experience to learn more about strings since 
+usually we have the library with all the functions already available, although 
+doing one in your own is quite challenging, it is also rewarding. In part 1 of
+this workshop, the assignment was to split a code into the proper modules, we
+had to set the headers and the cpp files accordingly, we also had to set all of them
+in a namespace which should help with the scope of the code. The modules had
+to be located properly and following a format to avoid extra libraries or
+variables in the code, I tested the modules individually as a stage of the 
+compilation, giving a good base for when it’s needed to start a code from 
+scratch and set all it’s modules. Part 2 is a DYI, which makes you do your own 
+custom fuctions based on the string.h library. We learned about references that 
+work similar to a pointer so I decided to test it out in part 2 to make my code 
+have a better flow. The prototypes were already provided so I had to follow the 
+format provided for my code, usually we use the libraries to make the code more 
+readable so not being able to use libraries in this workshop required a little 
+more study. Like I mentioned before I tried using reference in some of the 
+functions since it makes it easier to work with strings. I did some unit testing
+ since I had to do the functions part by part before testing it all together.

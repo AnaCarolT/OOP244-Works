@@ -14,8 +14,9 @@ professor provided to complete my workshops and assignments.
 
 #include "cstring.h"
 namespace sdds {
-    void strCpy(char* des, const char* src)
-    {
+
+	void strCpy(char* des, const char* src)
+	{
         int i = 0;
         do
         {
@@ -23,8 +24,7 @@ namespace sdds {
             i++;
         } while (src[i] != '\0');
         des[i] = '\0';
-    }
-    //it was necessary to change or it wouldn't read the text
+	}
     unsigned strLen(const char* s)
     {
         int i;
@@ -35,6 +35,7 @@ namespace sdds {
         }
         return len;
     }
+
     void strCat(char* des, const char* src)
     {
         if (*des != '\0')
@@ -49,9 +50,7 @@ namespace sdds {
         {
             do
             {
-                *des++ = *src++;
-                src++;
-                des++;
+                *des = *src;
             } while (*des != '\0');
         }
         *des = '\0';

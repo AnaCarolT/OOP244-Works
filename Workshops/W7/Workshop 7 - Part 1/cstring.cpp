@@ -1,5 +1,5 @@
 /*///////////////////////////////////////////////////////////////////////////
-Full name: Ana Carolline Campos Tirolli
+Full name: Ana Caroline Campos Tirolli
 Student ID#:122476229
 Email: acampos-tirolli@myseneca.ca
 Date: 2023-07-17
@@ -15,15 +15,17 @@ professor provided to complete my workshops and assignments.
 #include "cstring.h"
 namespace sdds {
     
-    void strCpy(char* des, const char* src)
+    void strCpy(char* des, const char* src, int len)
     {
-        int i = 0;
-        do
+        int i;
+        for (i = 0; src[i] != '\0' && i < len; i++)
         {
             des[i] = src[i];
-            i++;
-        } while (src[i] != '\0');
-        des[i] = '\0';
+        }
+        if (i < len)
+        {
+            des[i] = '\0';
+        }
     }
 
     void strnCpy(char* des, const char* src, int len)
