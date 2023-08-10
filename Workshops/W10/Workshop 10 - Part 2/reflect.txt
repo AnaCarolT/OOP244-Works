@@ -1,0 +1,10 @@
+/*///////////////////////////////////////////////////////////////////////////
+Full name: Ana Caroline Campos Tirolli
+Student ID#:122476229
+Email: acampos-tirolli@myseneca.ca
+Date: 2023-08-09
+
+///////////////////////////////////////////////////////////////////////////*/
+
+I started with listArrayElements since I only needed to give the right printing format I just needed to print the title and each row individually, then when I started doing the search function, I decided to check all the other modules first to make sure they all have the necessary operators so I could apply the templates properly, then I followed the instructions truly and I had some slight issues at first but after I put the right format it worked just fine. Since we need to compare an array of a certain type indepedent if it's an int,char or double with the index. It was templated the index so it can be anything and this affect the array since they are being compared. For example for cars we searched for "Tesla"(string) and students we searched for a gpa(double), so that's why index is also a type2 so we can have more flexibility in the search, the object collection is a template because it's needs to be read by the copy constructor, then the numelem doesn’t need a template because it's always going to be an int indepedent of the object.
+Void listArrayElements, it's like a display function. Here the template was only necessary so we could print different types in different objects or even in the same object, since it's only printing, the array was set as a const.
